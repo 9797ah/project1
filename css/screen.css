@@ -8,10 +8,15 @@ form {
 h1 {
   text-align: center;
   font-family: "Lucida Console", Monospace;
+  font-size: 30px;
 }
 p {
   text-align: center;
   font-family: "Times New Roman", Serif;
+}
+legend {
+  font-family: "Lucida Console", Monospace;
+  font-size: 20px;
 }
 #community {
   padding: 2em 0;
