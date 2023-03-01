@@ -3,6 +3,7 @@ body {
 }
 form {
   margin: auto;
+  background-color: #87CEFA;
 }
 h1 {
   text-align: center;
@@ -18,7 +19,27 @@ p {
 #des {
   padding-bottom: 0.5em; 
 }
-
+#input-email {
+  padding: 1em 0;
+  background-color: #ADFF2F;
+}
+#input-dob {
+  padding-bottom: 1em;
+  background-color: #E6E6FA;
+}
+#input-button {
+  background-color: #E0FFFF;
+  text-align: right;
+}
+#button-slot {
+  margin-right: 2em;
+}
+#email-slot {
+  margin-left: 3em;
+}
+#dob-slot {
+  margin-left: 3em;
+}
 @media screen and (min-width: 480px) {
   form {
     width: 60%;
