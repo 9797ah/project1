@@ -27,17 +27,20 @@ legend {
 #input-email {
   padding: 1em 0;
   background-color: #ADFF2F;
+  text-align: left;
 }
 #input-dob {
   padding-bottom: 1em;
   background-color: #E6E6FA;
+  text-align: left;
 }
 #input-button {
   background-color: #E0FFFF;
-  text-align: right;
+  padding: 0.2em 0;
+  text-align: left;
 }
 #button-slot {
-  margin-right: 2em;
+  margin-left: 3em;
 }
 #email-slot {
   margin-left: 3em;
@@ -47,12 +50,12 @@ legend {
 }
 @media screen and (min-width: 480px) {
   form {
-    width: 60%;
+    width: 75%;
   }
 }
 @media screen and (min-width: 640px) {
   
   form {
-    width: 90%;
+    width: 60%;
   }
 }
