@@ -40,13 +40,13 @@ legend {
   text-align: left;
 }
 #button-slot {
-  margin-left: 3em;
+  margin-left: 5em;
 }
 #email-slot {
-  margin-left: 3em;
+  margin-left: 5em;
 }
 #dob-slot {
-  margin-left: 3em;
+  margin-left: 5em;
 }
 @media screen and (min-width: 480px) {
   form {
