@@ -1,4 +1,5 @@
-jQuery(function($) {
-  $('html').removeClass('nojs');
-  $('html').addClass('hasjs');
-});
+function Next_phase() {
+  document.getElementById('des').innerHTML = 'Create Username and Password';
+  document.getElementById('input-email').innerHTML = 'Username';
+}
+

@@ -28,16 +28,19 @@ legend {
   padding: 1em 0;
   background-color: #ADFF2F;
   text-align: left;
+  display: block;
 }
 #input-dob {
   padding-bottom: 1em;
   background-color: #E6E6FA;
   text-align: left;
+  display: block;
 }
 #input-button {
   background-color: #E0FFFF;
   padding: 0.2em 0;
   text-align: left;
+  display: block;
 }
 #button-slot {
   margin-left: 5em;
