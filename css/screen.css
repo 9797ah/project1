@@ -22,20 +22,25 @@ p {
   padding-bottom: 0.5em; 
 }
 #input-email {
-  padding: 1em 0;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: #ADFF2F;
   text-align: left;
   display: block;
 }
 #input-dob {
   padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 2em;
   background-color: #E6E6FA;
   text-align: left;
   display: block;
 }
 #input-button {
   background-color: #E0FFFF;
-  padding: 0.2em 0;
+  padding-top: 0.2em;
+  padding-left: 2em;
   text-align: left;
   display: block;
 }
