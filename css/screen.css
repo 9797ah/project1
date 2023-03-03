@@ -66,4 +66,13 @@ p {
   form {
     width: 60%;
   }
+  #input-email {
+    padding-left: 5em;
+  }
+  #input-dob {
+    padding-left: 5em;
+  }
+  #input-button {
+    padding-left: 5em;
+  }
 }
