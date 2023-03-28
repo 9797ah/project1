@@ -12,8 +12,9 @@ h1 {
 }
 p {
   text-align: center;
-  font-family: "Times New Roman", Serif;
+  font-family: Roboto;
   font-size: 10px;
+  margin: auto;
 }
 
 #community {
@@ -29,6 +30,7 @@ p {
   background-color: #ADFF2F;
   text-align: left;
   display: block;
+  margin: auto;
 }
 #input-dob {
   padding-bottom: 1em;
@@ -37,6 +39,7 @@ p {
   background-color: #E6E6FA;
   text-align: left;
   display: block;
+  margin: auto;
 }
 #input-button {
   background-color: #E0FFFF;
@@ -44,6 +47,7 @@ p {
   padding-left: 2em;
   text-align: left;
   display: block;
+  margin: auto;
 }
 @media screen and (min-width: 480px) {
   h1 {
