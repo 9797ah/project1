@@ -4,6 +4,7 @@ body {
 form {
   margin: auto;
   background-color: #87CEFA;
+  width: 90%;
 }
 h1 {
   text-align: center;
