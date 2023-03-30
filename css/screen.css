@@ -28,17 +28,19 @@ p {
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #ADFF2F;
-  text-align: center;
+  text-align: left;
   display: block;
   margin: auto;
+  padding-left: 2.5em;
 }
 #input-dob {
   padding-bottom: 1em;
   padding-top: 1em;
   background-color: #E6E6FA;
-  text-align: center;
+  text-align: left;
   display: block;
   margin: auto;
+  padding-left: 2.5em;
 }
 #input-button {
   background-color: #E0FFFF;
@@ -46,6 +48,10 @@ p {
   text-align: center;
   display: block;
   margin: auto;
+}
+#e-mail {
+  width: 65%;
+  
 }
 @media screen and (min-width: 480px) {
   h1 {
@@ -69,6 +75,10 @@ p {
     padding-left: 2em;
 	text-align: left;
   }
+  #e-mail {
+  width: 40%;
+  margin-left: 0.5em;
+  }
 }
 @media screen and (min-width: 720px) {
   h1 {
@@ -91,5 +101,9 @@ p {
   #input-button {
     padding-left: 5em;
 	text-align: left;
+  }
+  #e-mail {
+  width: 30%;
+  margin-left: 1em;
   }
 }
