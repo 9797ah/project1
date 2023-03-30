@@ -8,45 +8,43 @@ form {
 }
 h1 {
   text-align: center;
-  font-family: "Lucida Console", Monospace;
+  font-family: Arial, "Verdana", Sans-Serif;
   font-size: 20px;
+  margin: auto;
 }
 p {
   text-align: center;
-  font-family: "Roboto Black";
+  font-family: Quicksand, "Tahoma", Sans-Serif;
   font-size: 10px;
-  margin: auto;
+  margin: 0.2em 5em;
 }
 
 #community {
-  padding: 2em 0;
+  margin: 2em 0;
 }
 #des {
   padding-bottom: 0.5em; 
 }
 #input-email {
-  padding-left: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #ADFF2F;
-  text-align: left;
+  text-align: center;
   display: block;
   margin: auto;
 }
 #input-dob {
   padding-bottom: 1em;
   padding-top: 1em;
-  padding-left: 2em;
   background-color: #E6E6FA;
-  text-align: left;
+  text-align: center;
   display: block;
   margin: auto;
 }
 #input-button {
   background-color: #E0FFFF;
   padding-top: 0.2em;
-  padding-left: 2em;
-  text-align: left;
+  text-align: center;
   display: block;
   margin: auto;
 }
@@ -59,6 +57,18 @@ p {
   }
   form {
     width: 75%;
+  }
+  #input-email {
+    padding-left: 2em;
+	text-align: left;
+  }
+  #input-dob {
+    padding-left: 2em;
+	text-align: left;
+  }
+  #input-button {
+    padding-left: 2em;
+	text-align: left;
   }
 }
 @media screen and (min-width: 720px) {
@@ -73,11 +83,14 @@ p {
   }
   #input-email {
     padding-left: 5em;
+	text-align: left;
   }
   #input-dob {
     padding-left: 5em;
+	text-align: left;
   }
   #input-button {
     padding-left: 5em;
+	text-align: left;
   }
 }
